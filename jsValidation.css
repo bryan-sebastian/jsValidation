@@ -1,0 +1,21 @@
+.error_message_holder {
+    display: none;
+}
+.error_message_holder.errors ul {
+    margin: 15px 0;
+    border: 2px solid #ca5b5b;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    border-radius: 5px;
+    background: rgba( 202, 91, 91, 0.08 );
+    color: #ca5b5b;
+}
+.error_message_holder.processing p {
+    margin: 15px 0;
+    border: 2px solid #5ba1ca;
+    padding: 10px;
+    border-radius: 5px;
+    background: rgba( 91, 161, 202, 0.08 );
+    color: #5ba1ca;
+}
